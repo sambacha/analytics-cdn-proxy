@@ -1,0 +1,21 @@
+{
+  "name": "cache-cdn-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/analytics-cdn-proxy.git"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sambacha/analytics-cdn-proxy/issues"
+  },
+  "homepage": "https://github.com/sambacha/analytics-cdn-proxy#readme"
+}
