@@ -1,0 +1,28 @@
+{
+  "name": "cache-cdn-proxy",
+  "scope": "cache.storage",
+  "build": {
+    "env": {}
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "x-frame-options",
+          "value": "deny"
+        },
+        {
+          "key": "Host",
+          "value": "cdn.cache.storage"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://cdn.cache.storage/:path*"
+    }
+  ]
+}
